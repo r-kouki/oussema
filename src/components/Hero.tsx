@@ -42,7 +42,7 @@ export default function Hero() {
               <span className="group-hover:translate-x-1 transition-transform duration-300">→</span>
             </a>
             <a
-              href="/oussema-boumiza-cv.pdf"
+              href={`${import.meta.env.BASE_URL}oussema-boumiza-cv.pdf`}
               download="Oussema_Boumiza_CV.pdf"
               className="group px-8 py-4 bg-slate-800/50 backdrop-blur-sm text-white rounded-lg font-semibold hover:bg-slate-700/50 transition-all duration-300 flex items-center gap-2 border border-slate-700 hover:border-slate-600"
             >
